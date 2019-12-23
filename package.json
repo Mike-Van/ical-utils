@@ -1,25 +1,25 @@
 {
   "_args": [
     [
-      "@machinshin/ical-toolkit@1.0.14",
+      "@MikeVan/ical-utils@1.0.14",
       "/home/ubuntu/environment/CRM-Node"
     ]
   ],
-  "_from": "@machinshin/ical-toolkit@1.0.14",
-  "_id": "@machinshin/ical-toolkit@1.0.14",
+  "_from": "@MikeVan/ical-utils@1.0.14",
+  "_id": "@MikeVan/ical-utils@1.0.14",
   "_inBundle": false,
   "_integrity": "sha512-fiW+tZ11FYg3BLnvazCC/IHWr+OkPOcn8lTjdrWGmx+ml/QddFf1gPMxbZLSWvWK+5sHlB7yFMMQdibQpVWsNw==",
-  "_location": "/@machinshin/ical-toolkit",
+  "_location": "/@MikeVan/ical-utils",
   "_phantomChildren": {
     "q": "1.5.1"
   },
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@machinshin/ical-toolkit@1.0.14",
-    "name": "@machinshin/ical-toolkit",
-    "escapedName": "@machinshin%2fical-toolkit",
-    "scope": "@machinshin",
+    "raw": "@MikeVan/ical-utils@1.0.14",
+    "name": "@MikeVan/ical-utils",
+    "escapedName": "@MikeVan%2fical-utils",
+    "scope": "@MikeVan",
     "rawSpec": "1.0.14",
     "saveSpec": null,
     "fetchSpec": "1.0.14"
@@ -27,17 +27,17 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/@machinshin/ical-toolkit/-/ical-toolkit-1.0.14.tgz",
+  "_resolved": "https://registry.npmjs.org/@MikeVan/ical-utils/-/ical-utils-1.0.14.tgz",
   "_spec": "1.0.14",
   "_where": "/home/ubuntu/environment/CRM-Node",
   "author": {
-    "name": "my fork"
+    "name": "Mike Van"
   },
   "bugs": {
-    "url": "https://github.com/machinshin/node-ical-toolkit/issues"
+    "url": "https://github.com/Mike-Van/ical-utils/issues"
   },
   "dependencies": {
-    "ical2json": "git+https://github.com/machinshin/ical2json.git",
+    "ical2json": "git+https://github.com/adrianlee44/ical2json.git",
     "moment": "^2.18.1"
   },
   "description": "ICal generator/updater/parser with Timezone/DST, Alams, Organizers, Events, etc. support.",
@@ -45,7 +45,7 @@
     "fs-readdir-recursive": "^0.1.0",
     "mocha": "^2.2.0"
   },
-  "homepage": "https://github.com/machinshin/node-ical-toolkit",
+  "homepage": "https://github.com/Mike-Van/ical-utils",
   "keywords": [
     "iCal",
     "generator",
@@ -57,10 +57,10 @@
   ],
   "license": "ISC",
   "main": "lib/main.js",
-  "name": "@machinshin/ical-toolkit",
+  "name": "ical-utils",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/machinshin/node-ical-toolkit.git"
+    "url": "git+https://github.com/Mike-Van/ical-utils.git"
   },
   "scripts": {
     "test": "mocha tests"
