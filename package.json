@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      "@machinshin/ical-toolkit@1.0.14",
+      "/home/ubuntu/environment/CRM-Node"
+    ]
+  ],
+  "_from": "@machinshin/ical-toolkit@1.0.14",
+  "_id": "@machinshin/ical-toolkit@1.0.14",
+  "_inBundle": false,
+  "_integrity": "sha512-fiW+tZ11FYg3BLnvazCC/IHWr+OkPOcn8lTjdrWGmx+ml/QddFf1gPMxbZLSWvWK+5sHlB7yFMMQdibQpVWsNw==",
+  "_location": "/@machinshin/ical-toolkit",
+  "_phantomChildren": {
+    "q": "1.5.1"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@machinshin/ical-toolkit@1.0.14",
+    "name": "@machinshin/ical-toolkit",
+    "escapedName": "@machinshin%2fical-toolkit",
+    "scope": "@machinshin",
+    "rawSpec": "1.0.14",
+    "saveSpec": null,
+    "fetchSpec": "1.0.14"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@machinshin/ical-toolkit/-/ical-toolkit-1.0.14.tgz",
+  "_spec": "1.0.14",
+  "_where": "/home/ubuntu/environment/CRM-Node",
+  "author": {
+    "name": "my fork"
+  },
+  "bugs": {
+    "url": "https://github.com/machinshin/node-ical-toolkit/issues"
+  },
+  "dependencies": {
+    "ical2json": "git+https://github.com/machinshin/ical2json.git",
+    "moment": "^2.18.1"
+  },
+  "description": "ICal generator/updater/parser with Timezone/DST, Alams, Organizers, Events, etc. support.",
+  "devDependencies": {
+    "fs-readdir-recursive": "^0.1.0",
+    "mocha": "^2.2.0"
+  },
+  "homepage": "https://github.com/machinshin/node-ical-toolkit",
+  "keywords": [
+    "iCal",
+    "generator",
+    "parser",
+    "updater",
+    "Timezone",
+    "DST",
+    "Alarms"
+  ],
+  "license": "ISC",
+  "main": "lib/main.js",
+  "name": "@machinshin/ical-toolkit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machinshin/node-ical-toolkit.git"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "version": "1.0.14"
+}

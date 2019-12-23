@@ -1,0 +1,15 @@
+{
+  "VTIMEZONE": {
+    "TZID": "UTC",
+    "X-LIC-LOCATION": "UTC",
+    "STANDARD": [
+      {
+        "TZOFFSETFROM": "+0000",
+        "TZOFFSETTO": "+0000",
+        "TZNAME": "UTC",
+        "DTSTART": "19700101T000000"
+      }
+    ]
+  },
+  "TZID": "UTC"
+}
